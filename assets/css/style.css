@@ -580,7 +580,7 @@ input {
   color: var(--title-color);
   font-weight: var(--font-medium);
   font-size: var(--normal-font-size);
-  letter-spacing: -5px;
+  letter-spacing: 1px;
   outline: none;
   border-radius: 0.5rem;
   transition: 0.3s;
