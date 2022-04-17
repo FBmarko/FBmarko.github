@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 :root {
   --hue-color: 242;
-  --skin-color: hsl(342, 92%, 46%);
+  --skin-color: hsl(129, 99%, 52%);
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 85%);
   --body-color: hsl(var(--hue-color), 19%, 5%);
@@ -189,7 +189,7 @@ input {
 .main {
   margin-left: 100px;
 }
-/*===== Home Section =====*/
+/*===== AnaSayfa Bölümü =====*/
 .home {
   background: url("../img/home-bg.jpg");
   background-size: cover;
@@ -278,7 +278,7 @@ input {
   color: var(--skin-color);
   margin-right: var(--mb-0-75);
 }
-/*===== Buttons =====*/
+/*===== Butonlar =====*/
 .button {
   display: inline-flex;
   align-items: center;
@@ -312,7 +312,7 @@ input {
 .button__icon {
   font-size: 1.25rem;
 }
-/*===== About Section =====*/
+/*===== Hakkımda Bölümü =====*/
 .about__container {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 4rem;
@@ -360,7 +360,7 @@ input {
 .about__subtitle {
   font-size: var(--smaller-font-size);
 }
-/*===== Qualification Section =====*/
+/*===== ÖzGeçmiş Bölümü =====*/
 .qualification__container {
   grid-template-columns: repeat(2, 340px);
   column-gap: 3rem;
@@ -424,12 +424,12 @@ input {
   font-size: var(--smaller-font-size);
   color: var(--skin-color);
 }
-/*===== Skills Section =====*/
+/*===== Beceriler Bölümü =====*/
 .skills__container {
   grid-template-columns: 360px 320px;
   column-gap: 3rem;
   justify-content: center;
-}
+} 
 .skills__header {
   display: flex;
   align-items: center;
@@ -503,22 +503,7 @@ input {
   display: block;
   background-color: var(--skin-color);
 }
-
-/*===== Work Section =====*/
-
-/* Active Item Work */
-
-/* Portfolio Popup */
-
-/*===== Services Section =====*/
-
-/* Active Modal*/
-
-/*===== Testimonial Section =====*/
-
-/* Swiper Class */
-
-/*===== Contact Section =====*/
+/*===== İletişim Bölümü =====*/
 .contact__container {
   grid-template-columns: 300px 340px;
   column-gap: 3rem;
